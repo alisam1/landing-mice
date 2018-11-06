@@ -1,0 +1,45 @@
+.rewarding
+{
+  width: 100%;
+  height: 650px;
+  background: rgba(216,216,216,0.20);
+  margin-top: 70px;
+  z-index: 999;
+}
+
+.rewarding__all
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rewarding__title
+{
+  width: 600px;
+  font-family: "PT Sans-Bold";
+  color: #383838;
+  font-size: 42px;
+  line-height: 47px;
+  text-align: left;
+  padding-top: 55px;
+  position: relative;
+  left: 20px;
+  margin-bottom: 60px;
+}
+
+.rewarding__description
+{
+    width: 500px;
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.rewarding__img img
+{
+  margin-top: 25px;
+}
