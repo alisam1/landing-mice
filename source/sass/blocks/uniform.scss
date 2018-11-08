@@ -43,6 +43,45 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+  .uniform
+  {
+    height: 850px;
+  }
+
+.uniform__all
+{
+  flex-direction: column;
+}
+
+.uniform__title {
+    width: 650px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 40px;
+    margin-bottom: 60px;
+}
+
+.uniform__description {
+    width: 650px;
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.uniform__img img
+{
+  width: 350px;
+  margin-top: 25px;
+  margin-left: 200px;
+}
 
 }
 
