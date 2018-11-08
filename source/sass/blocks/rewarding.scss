@@ -43,3 +43,54 @@
 {
   margin-top: 25px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+  .rewarding
+  {
+    height: 850px;
+    background: rgba(216,216,216,0.20);
+    margin-top: 70px;
+    z-index: 999;
+  }
+
+.rewarding__all
+{
+  flex-direction: column;
+}
+
+.rewarding__title {
+    width: 280px;
+    font-family: "PT Sans-Bold";
+    color: #383838;
+    font-size: 42px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    left: 40px;
+    margin-bottom: 60px;
+}
+
+.rewarding__description {
+    width: 280px;
+    font-family: "PT Sans";
+    font-size: 24px;
+    line-height: 31px;
+    color: #383838;
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+.rewarding__img img
+{
+  width: 280px;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+
+}
